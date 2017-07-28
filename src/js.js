@@ -31,3 +31,6 @@ class DEF extends ABC{}
 let test = new DEF();
 console.log(test instanceof ABC);
 console.log(test instanceof DEF);
+
+//8. destructure
+//https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment
