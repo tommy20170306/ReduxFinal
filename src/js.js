@@ -19,3 +19,15 @@ $('#elm').css('color') === (window.getComputedStyle(elm))['color']
 // 5. array
 let a = [1,2,3];
 console.log(...a); // 1 2 3
+
+// 6. syntax sugar
+const handleSubmit = this.props.handleSubmit;
+const {handleSubmit: handleSubmit} = this.props;
+const {handleSubmit} = this.props;
+
+// 7. instanceof
+class ABC{}
+class DEF extends ABC{}
+let test = new DEF();
+console.log(test instanceof ABC);
+console.log(test instanceof DEF);
